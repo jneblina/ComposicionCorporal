@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .input-design{
+    @apply text-black border-black border rounded-lg pl-2 py-1 bg-gray-100
+} */
+
+table, td {
+    border: 2px solid;
+    text-align: center;
+    background-color: tan;
+  }
+
+  
