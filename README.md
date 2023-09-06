@@ -1,18 +1,44 @@
 # PROYECTO COMPOSICIÓN CORPORAL
 
-Autores: Neblina Villegas Jan Marlon
+Autor: Neblina Villegas Jan Marlon
 
 - [GitHub Jan Neblina](https://github.com/jneblina)
+- Correo electrónico: janneblina7@gmail.com
 
-## Objetivo
-Una página web que muestre acerca de mi y permita calcular tu composición corporal llenando un formulario y muestre los resultados en una tabla y una gráfica.
+## Descripción
+Este proyecto es una aplicación web que permite calcular la composición corporal en función de diferentes medidas proporcionadas por el usuario. Proporciona información sobre el porcentaje de masa grasa, masa ósea, masa residual y masa muscular. Además, incluye una tabla y una gráfica de visualización de estos porcentajes.
 
-## Instrucciones
+## Instrucciones de instalación y uso
 
 Aqui van las instrucciones para ejecutar este proyecto
 
-A continuación correr en terminal la siguiente linea:
+1. Clona el repositorio desde GitHub:
+
+> git clone https://github.com/jneblina/ComposicionCorporal.git
+
+2. Navega al directorio del proyecto:
+
+> cd dashboard
+
+3. Instala las dependencias necesarias:
+
+> npm install
+
+4. Inicia la aplicación
 
 > npm run dev
 
-El proyecto esta realizado en node.js
+5. Abre tu navegador web y accede a http://localhost:3000 para usar la aplicación.
+
+## Uso
+1. Dirigete al menú de la izquierda y seleeciona la pestaña de "Composición corporal".
+2. Completa los campos del formulario con tus datos personales y medidas.
+3. Haz clic en el botón "Calcular" para obtener los resultados.
+4. Los resultados se mostrarán en una tabla y una gráfica en la parte derecha de la pantalla.
+5. Si deseas reiniciar el formulario, haz clic en el botón "Limpiar".
+
+## Tecnologías usadas
+*React
+*Next.js
+*Tailwind CSS
+*Chart.js
