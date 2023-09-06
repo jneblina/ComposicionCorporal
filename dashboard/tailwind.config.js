@@ -20,6 +20,7 @@ module.exports = {
       limpiar: '#EF4444',
       negro: '#000000',
       blanco: '#FFFFFF',
+      gris: '#E9E9E9',
       tabla: '#542345'
     }
   },

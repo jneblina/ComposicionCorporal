@@ -1,30 +1,35 @@
+// Importa el componente 'Link' desde 'next/link'
 import Link from "next/link";
 
+// Define una matriz de rutas de menú con objetos que contienen 'route' y 'name'
 const menuRoutes = [
     {
-        ruta: '/',
-        nombre: 'Inicio'
+        route: '/',
+        name: 'Inicio'
     },
     {
-        ruta: '/about',
-        nombre: 'Acerca de'
+        route: '/about',
+        name: 'Acerca de'
     },
     {
-        ruta: '/composicion',
-        nombre: 'Composicion Corporal'
+        route: '/composicion',
+        name: 'Composición Corporal'
     },
+];
 
-]
-
+// Define el componente 'Menu'
 function Menu() {
-    return(
+    return (
         <div className="w-1/5 bg-secondary min-h-screen text-xl text-center p-4">
             <h1 className="font-bold mb-6 text-2xl">Menú</h1>
             <ol className="flex flex-col items-center">
                 {
-                    menuRoutes.map((menu,key) =>(
+                    // Mapea las rutas del menú y renderiza enlaces usando 'Link'
+                    menuRoutes.map((menu, key) => (
                         <li className="my-4" key={key}>
-                            <Link className="transition hover:text-blanco hover:underline " href={menu.ruta}>{menu.nombre}</Link>
+                            <Link className="transition hover:text-blanco hover:underline" href={menu.route}>
+                                {menu.name}
+                            </Link>
                         </li>
                     ))
                 }
@@ -33,4 +38,4 @@ function Menu() {
     );
 }
 
-export default Menu;
+export default Menu; 

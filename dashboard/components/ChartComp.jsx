@@ -1,27 +1,29 @@
-import React, { useEffect, useRef} from 'react'
+import React, { useEffect, useRef } from 'react';
 import { Chart } from 'chart.js/auto';
 
-
-
-export const ChartComp = ({ porcentajes }) => {
+export const ChartComp = ({ percentages }) => {
+  // Ref para el elemento de la gráfica
   const chartRef = useRef();
 
-    useEffect(() => {
-      const {masa_grasa, masa_osea, masa_residual, masa_muscular} = porcentajes
-    
-    const ctx = document.getElementById('chartComp');
+  useEffect(() => {
+    const { bodyFat, boneMass, residualMass, muscularMass } = percentages;
 
+    // Obtener el contexto del elemento de la gráfica
+    const ctx = chartRef.current.getContext('chartComp');
+
+    // Destruye la gráfica anterior si existe para evitar duplicados
     if (chartRef.current) {
       chartRef.current.destroy();
     }
-  
-     const newChart = new Chart(ctx, {
+
+    // Crea una nueva instancia de Chart.js para la gráfica de pastel
+    const newChart = new Chart(ctx, {
       type: 'pie',
       data: {
-        labels: ['Masa grasa', 'Masas ósea', 'Masa residual', 'Masa muscular'],
+        labels: ['Masa grasa', 'Masa ósea', 'Masa residual', 'Masa muscular'],
         datasets: [{
           label: 'Porcentaje respecto al peso',
-          data: [masa_grasa, masa_osea, masa_residual, masa_muscular],
+          data: [bodyFat, boneMass, residualMass, muscularMass],
           borderWidth: 2
         }]
       },
@@ -34,15 +36,15 @@ export const ChartComp = ({ porcentajes }) => {
       }
     });
 
+    // Actualiza la referencia del elemento de la gráfica con la nueva instancia
     chartRef.current = newChart;
-    }, [porcentajes])
-    
-    
+  }, [percentages]);
+
   return (
-    <div className=' rounded-md bg-blanco flex flex-col px-4'>
-    <h1 className='text-xl font-bold mb-2'>Gráfica de pastel</h1>
-    
-      <canvas id='chartComp' width='200' height='200'></canvas>
+    <div className='rounded-md bg-blanco flex flex-col px-4'>
+      <h1 className='text-center font-bold'>Gráfica de porcentajes</h1>
+      {/* El elemento canvas donde se renderizará la gráfica */}
+      <canvas ref={chartRef} id='chartComp' height='200' width='200'></canvas>
     </div>
-  )
-}
+  );
+};

@@ -6,6 +6,7 @@
     @apply text-black border-black border rounded-lg pl-2 py-1 bg-gray-100
 } */
 
+/* Estilos para tablas y celdas de la tabla */
 table, td {
     border: 2px solid;
     text-align: center;
