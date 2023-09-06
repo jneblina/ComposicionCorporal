@@ -49,7 +49,7 @@ export const FormComp = ({calcularDensidad, setDensidad}) => {
             bistiloideo: '',
             femur: '',
           });
-        setDensidad(null);
+        setDensidad();
     }
 
 

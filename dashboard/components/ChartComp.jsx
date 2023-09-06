@@ -4,7 +4,7 @@ import { Chart } from 'chart.js/auto';
 
 
 export const ChartComp = ({ porcentajes }) => {
-  const chartRef = useRef(null);
+  const chartRef = useRef();
 
     useEffect(() => {
       const {masa_grasa, masa_osea, masa_residual, masa_muscular} = porcentajes
