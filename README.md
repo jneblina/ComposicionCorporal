@@ -38,7 +38,7 @@ Aqui van las instrucciones para ejecutar este proyecto
 5. Si deseas reiniciar el formulario, haz clic en el botón "Limpiar".
 
 ## Tecnologías usadas
-*React
-*Next.js
-*Tailwind CSS
-*Chart.js
+- React
+- Next.js
+- Tailwind CSS
+- Chart.js
