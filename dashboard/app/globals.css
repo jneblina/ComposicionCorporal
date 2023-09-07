@@ -8,9 +8,8 @@
 
 /* Estilos para tablas y celdas de la tabla */
 table, td {
-    border: 2px solid;
     text-align: center;
-    background-color: tan;
+    background-color: #FFFFFF;
   }
 
   

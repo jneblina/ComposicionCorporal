@@ -14,14 +14,15 @@ module.exports = {
       },
     },
     colors:{
-      primary: '#6B5CA5',
-      secondary: '#71A9F7',
-      confirmar: '#00d832',
-      limpiar: '#EF4444',
-      negro: '#000000',
-      blanco: '#FFFFFF',
-      gris: '#E9E9E9',
-      tabla: '#542345'
+      primary: '#DFE2E2',
+      secondary: '#040911 ',
+      confirm: '#B3BCBC',
+      clean: '#B3BCBC',
+      black: '#000000',
+      white: '#FFFFFF',
+      gray: '#E9E9E9',
+      tableComponents: '#132C53',
+      textButton: '#434C4C',
     }
   },
   plugins: [],

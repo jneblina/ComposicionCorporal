@@ -80,11 +80,11 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
             onSubmit={handleSubmit} 
             onReset={clean}
             className="bg-secondary shadow-2xl px-8 rounded-2xl text-center">
-                <h1 className='font-bold text-xl mb-2'>Ingresa tus datos</h1>
+                <h1 className='font-bold text-xl mb-8 mt-8 text-white'>Ingresa tus datos</h1>
                 <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <h1 onClick={() => handleTitleClick(genderInputRef)}>Género</h1>
-                    <select className='text-negro border-negro border rounded-lg pl-2 py-1.5 bg-gris w-full'
+                  <h1 className='text-white' onClick={() => handleTitleClick(genderInputRef)}>Género</h1>
+                    <select className=' border-white border rounded-lg pl-2 py-1.5 bg-gray w-full'
                     ref={genderInputRef}
                     name='gender'
                     title='gender'
@@ -97,8 +97,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                         </select>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(ageInputRef)}>Edad</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(ageInputRef)}>Edad</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={ageInputRef}
                   name='age' 
                   type="number" 
@@ -108,8 +108,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(heightInputRef)}>Altura</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris' 
+                  <h1 className='text-white' onClick={() => handleTitleClick(heightInputRef)}>Altura</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray' 
                   ref={heightInputRef}
                   name='height' 
                   type="number" 
@@ -118,8 +118,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange} />
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(weightInputRef)}>Peso</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(weightInputRef)}>Peso</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={weightInputRef} 
                   name='weight' 
                   type="number" 
@@ -128,8 +128,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>   
                 <div>
-                  <h1 onClick={() => handleTitleClick(bicepInputRef)}>Biciptal</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris' 
+                  <h1 className='text-white' onClick={() => handleTitleClick(bicepInputRef)}>Biciptal</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray' 
                   ref={bicepInputRef}
                   name='bicep' 
                   type="number" 
@@ -138,8 +138,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(tricepInputRef)}>Tricipital</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(tricepInputRef)}>Tricipital</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={tricepInputRef}
                   name='tricep' 
                   type="number" 
@@ -148,8 +148,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(subscapularInputRef)}>Subscapular</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(subscapularInputRef)}>Subscapular</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={subscapularInputRef}
                   name='subscapular' 
                   type="number" 
@@ -158,8 +158,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(supraileakInputRef)}>Suprailíaco</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(supraileakInputRef)}>Suprailíaco</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={supraileakInputRef}
                   name='supraileak' 
                   type="number" 
@@ -168,8 +168,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(bistyloidInputRef)}>Biestiloideo</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(bistyloidInputRef)}>Biestiloideo</h1>
+                  <input className=' border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={bistyloidInputRef}
                   name='bistyloid' 
                   type="number" 
@@ -178,8 +178,8 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
                 <div>
-                  <h1 onClick={() => handleTitleClick(femurInputRef)}>Fémur</h1>
-                  <input className='text-negro border-negro border rounded-lg pl-2 py-1 bg-gris'
+                  <h1 className='text-white' onClick={() => handleTitleClick(femurInputRef)}>Fémur</h1>
+                  <input className='border-white border rounded-lg pl-2 py-1 bg-gray'
                   ref={femurInputRef}
                   name='femur' 
                   type="number" 
@@ -188,9 +188,9 @@ export const FormComp = ({ calculateDensity, setDensity }) => {
                   required onChange={handleInputChange}/>
                 </div>
               </div>
-              <div className="flex justify-center space-x-4 mt-11 mb-10">
-              <button className='p-2 bg-confirmar text-negro rounded-md font-bold' type='submit'>Calcular</button>
-                <button className='p-2 bg-limpiar text-negro rounded-md font-bold' type='reset' onClick={clean}>Limpiar</button>
+              <div className="flex flex-col justify-center mt-7 mb-7 px-40 space-y-2">
+              <button className='p-2 bg-confirm rounded-md font-bold text-sm text-textButton hover:bg-black hover:text-white transition-colors duration-500' type='submit'>Calcular</button>
+                <button className='p-2 bg-clean rounded-md font-bold text-sm text-textButton hover:bg-black hover:text-white transition-colors duration-500' type='reset' onClick={clean}>Limpiar</button>
               </div>
             </form>
     </div>

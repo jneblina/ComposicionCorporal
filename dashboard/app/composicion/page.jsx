@@ -84,14 +84,16 @@ export default function Composicion() {
 
     return (
       <div className='bg-primary w-screen'>
-        <h1 className='text-5xl text-center mt-4'>Composición Corporal</h1>
+        <h1 className='text-3xl text-center mt-6 font-bold mb-2'>Composición corporal</h1>
         <div className='grid grid-cols-2 justify-center p-8'>
           {/* Componente Formulario para ingresar datos */}
-          <FormComp calculateDensity={calculateDensity} setDensity={setDensity}/>
+          <div className='pl-12'>
+            <FormComp calculateDensity={calculateDensity} setDensity={setDensity}/>
+          </div>
           
           {/* Comprueba si se ha calculado la densidad antes de mostrar los otros componentes */}
           { density &&
-            <div className='flex flex-col items-center justify-center gap-8'>
+            <div className='flex flex-col items-center justify-center gap-12 pl-4'>
               {/* Componente Tabla para mostrar métricas */}
               <TableComp percentages={percentages} masses={masses} density={density}/>
               

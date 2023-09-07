@@ -14,7 +14,7 @@ export default About => {
                 {/* Imagen personal  */}
                 <div className="w-full md:w-1/2 mt-8">
                     <img 
-                        className='w-full h-auto border-4 border-blanco mx-auto md:w-1/2 md:h-1/2'
+                        className='w-full h-auto border-4 border-white mx-auto md:w-1/2 md:h-1/2'
                         src="/images/Yo.jpg"
                         alt=""
                     />
