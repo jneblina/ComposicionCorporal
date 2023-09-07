@@ -5,6 +5,8 @@ Autor: Neblina Villegas Jan Marlon
 - [GitHub Jan Neblina](https://github.com/jneblina)
 - Correo electrónico: janneblina7@gmail.com
 
+- Página en vercel: https://composicion-corporal.vercel.app/
+
 ## Descripción
 Este proyecto es una aplicación web que permite calcular la composición corporal en función de diferentes medidas proporcionadas por el usuario. Proporciona información sobre el porcentaje de masa grasa, masa ósea, masa residual y masa muscular. Además, incluye una tabla y una gráfica de visualización de estos porcentajes.
 
