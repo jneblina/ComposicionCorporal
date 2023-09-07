@@ -1,4 +1,4 @@
-![image](https://github.com/jneblina/ComposicionCorporal/assets/101784674/723acb1b-5c2f-4bf2-9752-87b22fbaa0f9)# PROYECTO COMPOSICIÓN CORPORAL
+## PROYECTO COMPOSICIÓN CORPORAL
 
 Autor: Neblina Villegas Jan Marlon
 
@@ -53,6 +53,7 @@ Aqui van las instrucciones para ejecutar este proyecto
 
 ![Composición corporal](https://i.imgur.com/yMZ2U4w.png)
 
+# Resultados
 ![Resultados](https://i.imgur.com/X4Zwr6z.png)
 
 ## Tecnologías usadas
