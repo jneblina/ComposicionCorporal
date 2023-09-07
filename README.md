@@ -1,4 +1,4 @@
-## PROYECTO COMPOSICIÓN CORPORAL
+# PROYECTO COMPOSICIÓN CORPORAL
 
 Autor: Neblina Villegas Jan Marlon
 
@@ -41,19 +41,19 @@ Aqui van las instrucciones para ejecutar este proyecto
 
 ## Capturas del proyecto
 
-# Página de inicio
+## Página de inicio
 
 ![Inicio](https://i.imgur.com/v6hdvhQ.png)
 
-# Página de about me
+## Página de about me
 
 ![Acerca de](https://i.imgur.com/au7vUmT.png)
 
-# Página del formulario
+## Página del formulario
 
 ![Composición corporal](https://i.imgur.com/yMZ2U4w.png)
 
-# Resultados
+## Resultados
 ![Resultados](https://i.imgur.com/X4Zwr6z.png)
 
 ## Tecnologías usadas
