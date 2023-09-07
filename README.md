@@ -1,4 +1,4 @@
-# PROYECTO COMPOSICIÓN CORPORAL
+![image](https://github.com/jneblina/ComposicionCorporal/assets/101784674/723acb1b-5c2f-4bf2-9752-87b22fbaa0f9)# PROYECTO COMPOSICIÓN CORPORAL
 
 Autor: Neblina Villegas Jan Marlon
 
@@ -38,6 +38,22 @@ Aqui van las instrucciones para ejecutar este proyecto
 3. Haz clic en el botón "Calcular" para obtener los resultados.
 4. Los resultados se mostrarán en una tabla y una gráfica en la parte derecha de la pantalla.
 5. Si deseas reiniciar el formulario, haz clic en el botón "Limpiar".
+
+## Capturas del proyecto
+
+# Página de inicio
+
+![Inicio](https://i.imgur.com/v6hdvhQ.png)
+
+# Página de about me
+
+![Acerca de](https://i.imgur.com/au7vUmT.png)
+
+# Página del formulario
+
+![Composición corporal](https://i.imgur.com/yMZ2U4w.png)
+
+![Resultados](https://i.imgur.com/X4Zwr6z.png)
 
 ## Tecnologías usadas
 - React
